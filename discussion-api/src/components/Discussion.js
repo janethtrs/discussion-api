@@ -4,8 +4,6 @@ import '../styles/discussion.css';
 
 
 function Discussion({id,texto,comment}){
-
-  
   return(
         <div className='container-discussion'>
           <div className='user'>
@@ -16,7 +14,7 @@ function Discussion({id,texto,comment}){
             {texto}
           </div>
           <button className='comment-button'>
-            Comentar
+            Comment
           </button>
         </div>
     );

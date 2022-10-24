@@ -13,7 +13,7 @@ function DiscussionForm(props){
   
     const sendDiscussion = e => {
       e.preventDefault(); 
-      console.log("Enviando");
+      console.log("Sending");
   
       const newDiscussion = {
         id: uuidv4(), 
