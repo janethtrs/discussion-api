@@ -17,7 +17,7 @@ function DiscussionForm(props){
   
       const newDiscussion = {
         id: uuidv4(), 
-        texto: input
+        text: input
       }
       props.onSubmit(newDiscussion);
     }

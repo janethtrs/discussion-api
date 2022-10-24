@@ -3,7 +3,7 @@ import '../styles/discussion.css';
 
 
 
-function Discussion({id,texto,comment}){
+function Discussion({id,text,comment}){
   return(
         <div className='container-discussion'>
           <div className='user'>
@@ -11,7 +11,7 @@ function Discussion({id,texto,comment}){
           </div>
           <div 
             className='text-discussion'>
-            {texto}
+            {text}
           </div>
           <button className='comment-button'>
             Comment

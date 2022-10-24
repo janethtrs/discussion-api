@@ -8,8 +8,8 @@ function DiscussionList(){
 const[discussions, setDiscussion] = useState([]); 
 
   const newDiscussion = discussion => {
-    if(discussion.texto.trim()){ 
-      discussion.texto = discussion.texto.trim(); 
+    if(discussion.text.trim()){ 
+      discussion.text = discussion.text.trim(); 
 
       const discussionUpdate = [discussion,...discussions]; 
       setDiscussion(discussionUpdate);
@@ -26,7 +26,7 @@ const[discussions, setDiscussion] = useState([]);
           <Discussion       
             key = {discussion.id}        
             id={discussion.id}
-            texto={discussion.texto}
+            text={discussion.text}
           />
           )
         }
