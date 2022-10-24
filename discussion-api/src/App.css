@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, 
+  body {
+    color: black;
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 40px;
+  }
+
+h1{
+  color: black;
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  margin: 20px 0;
+}
+
+
+.App{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.logo-container{
+  width: 100%;
+  display: flex;
+  margin: 20px;
+}
+
+.discussion-question{
+  width: 1000px;
+  min-height: 500px;
+  background-color:rgba(246, 245, 239, 0.659);
+  padding: 25px;
+  margin: 10px;
+  justify-content: center;
+  border-radius: 26px;
+}
