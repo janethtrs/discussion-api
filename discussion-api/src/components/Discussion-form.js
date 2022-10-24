@@ -5,7 +5,7 @@ import '../styles/discussion-form.css';
 
 function DiscussionForm(props){
 
-    const[input, setInput] = useState();
+    const[input, setInput] = useState('');
 
     const manageChange = e =>{
       setInput(e.target.value);
