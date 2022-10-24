@@ -29,7 +29,7 @@ function DiscussionForm(props){
         <input
           className='discussion-input'
           type='text'
-          placeholder=''
+          placeholder='Enter text'
           name='texto'
           onChange={manageChange}
         />
