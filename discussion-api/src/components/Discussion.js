@@ -16,7 +16,9 @@ function Discussion({id,text,comment}){
           <button className='comment-button'>
             Comment
           </button>
+          <div>New div</div>
         </div>
+        
     );
 }
 
